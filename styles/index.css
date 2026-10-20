@@ -595,7 +595,23 @@ body::before {
   transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 .plays-panel.open { transform: translateX(0); }
-.plays-panel-header { padding: 1.6rem 1.5rem 0.9rem; border-bottom: 1px solid var(--rule); }
+.plays-panel-header { padding: 1.1rem 1.5rem 0.9rem; border-bottom: 1px solid var(--rule); }
+.plays-panel-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 0.7rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--bg);
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.plays-panel-back:hover { border-color: var(--fg); }
 .plays-panel-title {
   display: flex;
   align-items: center;
@@ -703,6 +719,22 @@ body.pair-mode .stats, body.pair-mode .meta { right: calc(var(--plays-w) + 2rem)
     text-transform: uppercase;
     cursor: pointer;
   }
+  /* Pair mode on phones: the plays list becomes a bottom sheet so the
+     two players (and the masthead Back button) stay visible above it. */
+  .plays-panel {
+    top: auto;
+    height: 58vh;
+    border-left: 0;
+    border-top: 1px solid var(--rule);
+    border-radius: 18px 18px 0 0;
+    transform: translateY(100%);
+  }
+  .plays-panel.open { transform: translateY(0); }
+  .plays-panel-header { padding: 0.9rem 1rem 0.7rem; }
+  .plays-panel-title { font-size: 1rem; }
+  .plays-panel-list { padding: 0.4rem 0.6rem 0.8rem; }
+  .plays-panel-footer { display: none; }
+  body.pair-mode .rail, body.pair-mode .sidebar-toggle, body.pair-mode .sidebar { display: none; }
   .team-overlay { padding: 4rem 1rem 2rem; }
   .team-overlay-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
   .hint { bottom: auto; top: 6.5rem; max-width: calc(100vw - 2rem); }

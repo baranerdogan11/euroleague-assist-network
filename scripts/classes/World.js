@@ -111,6 +111,7 @@ export default class World {
     new ResizeObserver(() => this.resize()).observe(this.canvas);
     this.backButton = document.querySelector("[data-back]");
     this.backButton?.addEventListener("click", () => this.back());
+    document.querySelector("[data-plays-back]")?.addEventListener("click", () => this.back());
   }
 
   resize() {
@@ -531,20 +532,30 @@ export default class World {
   _enterPair(meshA, meshB) {
     const a = meshA.userData.node;
     const b = meshB.userData.node;
-    this._moveNode(a, -PAIR_GAP, 0, 0);
-    this._moveNode(b, PAIR_GAP, 0, 0);
+    // Phones need more room between the two dots or the names collide.
+    const gap = this.canvas.clientWidth <= 720 ? PAIR_GAP * 1.8 : PAIR_GAP;
+    this._moveNode(a, -gap, 0, 0);
+    this._moveNode(b, gap, 0, 0);
     const data = this.app.data;
     this.label.resetStats();
     this.label.setStat(a.player_id, `${data.directedCount(a.player_id, b.player_id)} OUT · ${data.directedCount(b.player_id, a.player_id)} IN`);
     this.label.setStat(b.player_id, `${data.directedCount(b.player_id, a.player_id)} OUT · ${data.directedCount(a.player_id, b.player_id)} IN`);
     document.body.classList.add("pair-mode");
     this._applyDimming();
-    // Pan so the pair sits in the left ~58% of the viewport (the plays
-    // panel covers the right) by moving the orbit target to the right.
-    const panelFrac = Math.min(0.42, (26 * 16) / this.canvas.clientWidth);
-    const dist = this._fitDistance(PAIR_GAP + 3.2);
-    const visibleHalfW = Math.tan(((this.camera.fov * Math.PI) / 180) / 2) * this.camera.aspect * dist;
-    this._cameraTo(visibleHalfW * panelFrac, 0, dist);
+    const dist = this._fitDistance(gap + 3.2);
+    const tanV = Math.tan(((this.camera.fov * Math.PI) / 180) / 2);
+    if (this.canvas.clientWidth <= 720) {
+      // Phones: the plays panel is a bottom sheet (58vh), so lift the
+      // pair into the top ~40% of the screen by lowering the orbit target.
+      const visibleHalfH = tanV * dist;
+      this._cameraTo(0, -visibleHalfH * 0.5, dist);
+    } else {
+      // Desktop: the panel covers the right edge, so pan the pair into
+      // the left ~58% by moving the orbit target to the right.
+      const panelFrac = Math.min(0.42, (26 * 16) / this.canvas.clientWidth);
+      const visibleHalfW = tanV * this.camera.aspect * dist;
+      this._cameraTo(visibleHalfW * panelFrac, 0, dist);
+    }
   }
 
   _exitFocus() {
