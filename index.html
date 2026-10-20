@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EuroLeague Assist Networks (2026-27)</title>
+    <meta
+      name="description"
+      content="Interactive 3D constellation of every EuroLeague team's assist network, 2026-27 season so far."
+    />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EuroLeague Assist Networks (2026-27)" />
+    <meta
+      property="og:description"
+      content="Interactive 3D constellation of every EuroLeague team's assist network."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- Versions pinned exactly so an upstream release can't change the page. -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.176.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.176.0/examples/jsm/",
+          "d3-force-3d": "https://cdn.jsdelivr.net/npm/d3-force-3d@3.0.6/+esm"
+        }
+      }
+    </script>
+    <script type="module" src="./scripts/index.js"></script>
+  </head>
+  <body>
+    <canvas class="canvas"></canvas>
+    <div class="labels" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- Masthead — top-left -->
+    <header class="masthead">
+      <a class="brand" href="#" data-brand>
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Assist Network</span>
+      </a>
+      <button class="back-button" type="button" data-back hidden>
+        <span aria-hidden="true">←</span> Back
+      </button>
+      <h1 class="masthead-team" data-reveal data-team-display></h1>
+      <p class="masthead-sub" data-reveal data-team-sub></p>
+    </header>
+
+    <!-- Deciding numbers — top-right -->
+    <aside class="stats" data-reveal>
+      <div class="stat">
+        <span class="stat-label">Players</span>
+        <span class="stat-value" data-stat="players">—</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Connections</span>
+        <span class="stat-value" data-stat="edges">—</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Assists</span>
+        <span class="stat-value" data-stat="assists">—</span>
+      </div>
+    </aside>
+
+    <!-- Control rail — bottom-left -->
+    <section class="rail" data-reveal>
+      <form class="rail-form" onsubmit="return false">
+        <div class="control control-team">
+          <span class="control-label" id="team-label">Team</span>
+          <button
+            class="team-button"
+            type="button"
+            data-team-button
+            aria-haspopup="dialog"
+            aria-labelledby="team-label"
+          >
+            <img class="team-button-crest" data-team-button-crest alt="" />
+            <span data-team-button-name>—</span>
+            <span class="team-button-chevron" aria-hidden="true">▾</span>
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Graph-theory sidebar (left edge) -->
+    <aside class="sidebar" data-reveal></aside>
+    <button
+      class="sidebar-toggle"
+      type="button"
+      data-sidebar-toggle
+      aria-expanded="false"
+    >Stats</button>
+
+    <div class="load-error" role="alert">
+      <p class="load-error-msg">Couldn&rsquo;t load team data.</p>
+      <button class="load-error-retry" type="button" data-retry>Retry</button>
+    </div>
+
+    <div class="hint" role="note" data-hint>
+      Click a player dot to open their assist network. Click a second
+      player for every assist between them.
+    </div>
+
+    <!-- Team switcher overlay -->
+    <div
+      class="team-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Choose a team"
+      data-team-overlay
+    >
+      <button class="team-overlay-close" type="button" data-team-overlay-close aria-label="Close">×</button>
+      <div class="team-overlay-grid" data-team-overlay-grid></div>
+    </div>
+
+    <!-- Metric explanation modal -->
+    <dialog class="info-modal">
+      <button class="info-modal-close" type="button" data-modal-close aria-label="Close">×</button>
+      <h2 class="info-modal-title" data-modal-title>—</h2>
+      <p class="info-modal-def" data-modal-def>—</p>
+      <a class="info-modal-wiki" data-modal-wiki href="#" target="_blank" rel="noopener noreferrer"
+        >Learn more on Wikipedia →</a
+      >
+      <div class="info-modal-divider">For Basketball</div>
+      <p class="info-modal-basketball" data-modal-basketball>—</p>
+    </dialog>
+
+    <!-- Pair-mode panel: every assist between two players -->
+    <aside class="plays-panel" hidden>
+      <header class="plays-panel-header">
+        <h2 class="plays-panel-title" data-plays-title>—</h2>
+        <p class="plays-panel-sub" data-plays-sub>—</p>
+      </header>
+      <div class="plays-panel-list" data-plays-list></div>
+      <footer class="plays-panel-footer">
+        Games open on euroleaguebasketball.net in a new tab
+      </footer>
+    </aside>
+
+    <footer class="meta" data-reveal>
+      <span data-meta-caption>Data courtesy of the EuroLeague live API</span>
+    </footer>
+  </body>
+</html>

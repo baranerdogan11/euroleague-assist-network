@@ -1,0 +1,2485 @@
+{
+ "season": "2026-27",
+ "seasonCode": "E2026",
+ "roundsPlayed": 6,
+ "gamesPlayed": 60,
+ "lastGameUtc": "2026-10-16T18:30:00Z",
+ "builtAt": "2026-10-20T00:27:23+00:00",
+ "minEdge": 2,
+ "topN": 12,
+ "clubs": [
+  {
+   "code": "IST",
+   "name": "Anadolu Efes Istanbul",
+   "short": "Anadolu Efes",
+   "country": "Turkiye",
+   "crest": "https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjCgOCxM/a844756c-a58d-4666-93b8-48f7337bc79d.png"
+  },
+  {
+   "code": "MIL",
+   "name": "Armani Olimpia Milan",
+   "short": "Milan",
+   "country": "Italy",
+   "crest": "https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjChWbHH/5c2f0ab6-f86a-4df0-b2f3-f9ab92f7267b.png"
+  },
+  {
+   "code": "BES",
+   "name": "Besiktas Istanbul",
+   "short": "Besiktas",
+   "country": "Turkiye",
+   "crest": "https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjChWbHH/b05e3c54-e672-4b31-9f86-c91e9de7715c.png"
+  },
+  {
+   "code": "RED",
+   "name": "Crvena Zvezda Meridianbet Belgrade",
+   "short": "Crvena Zvezda",
+   "country": "Serbia",
+   "crest": "https://media-cdn.incrowdsports.com/d2eef4a8-62df-4fdd-9076-276004268515.png"
+  },
+  {
+   "code": "DUB",
+   "name": "Dubai Basketball",
+   "short": "Dubai",
+   "country": "United Arab Emirates",
+   "crest": "https://media-cdn.incrowdsports.com/1efae090-16e2-4963-ae47-4b94f249c244.png"
+  },
+  {
+   "code": "BAR",
+   "name": "FC Barcelona",
+   "short": "FC Barcelona",
+   "country": "Spain",
+   "crest": "https://media-cdn.incrowdsports.com/35dfa503-e417-481f-963a-bdf6f013763e.png"
+  },
+  {
+   "code": "MUN",
+   "name": "FC Bayern Munich",
+   "short": "Bayern Munich",
+   "country": "Germany",
+   "crest": "https://media-cdn.incrowdsports.com/817b0e58-d595-4b09-ab0b-1e7cc26249ff.png"
+  },
+  {
+   "code": "ULK",
+   "name": "Fenerbahce Tarfin Istanbul",
+   "short": "Fenerbahce",
+   "country": "Turkiye",
+   "crest": "https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjCiezrk/aa39750a-6203-49ee-a87d-edd0c6f0397d.png"
+  },
+  {
+   "code": "HTA",
+   "name": "Hapoel IBI Tel Aviv",
+   "short": "Hapoel TLV",
+   "country": "Israel",
+   "crest": "https://media-cdn.incrowdsports.com/cbb1c3ad-03d5-426a-b5ef-2832a4eee484.png"
+  },
+  {
+   "code": "BAS",
+   "name": "Kosner Baskonia Vitoria-Gasteiz",
+   "short": "Baskonia",
+   "country": "Spain",
+   "crest": "https://media-cdn.cortextech.io/cbc49cb0-99ce-4462-bdb7-56983ee03cf4.png"
+  },
+  {
+   "code": "ASV",
+   "name": "LDLC ASVEL Villeurbanne",
+   "short": "LDLC ASVEL",
+   "country": "France",
+   "crest": "https://media-cdn.incrowdsports.com/e33c6d1a-95ca-4dbc-b8cb-0201812104cc.png"
+  },
+  {
+   "code": "TEL",
+   "name": "Maccabi Rapyd Tel Aviv",
+   "short": "Maccabi",
+   "country": "Israel",
+   "crest": "https://media-cdn.cortextech.io/1b533342-78f5-4932-b714-a7d80b5826b5.png"
+  },
+  {
+   "code": "OLY",
+   "name": "Olympiacos Piraeus",
+   "short": "Olympiacos",
+   "country": "Greece",
+   "crest": "https://media-cdn.incrowdsports.com/789423ac-3cdf-4b89-b11c-b458aa5f59a6.png"
+  },
+  {
+   "code": "PAN",
+   "name": "Panathinaikos AKTOR Athens",
+   "short": "Panathinaikos",
+   "country": "Greece",
+   "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+  },
+  {
+   "code": "PRS",
+   "name": "Paris Basketball",
+   "short": "Paris",
+   "country": "France",
+   "crest": "https://media-cdn.incrowdsports.com/a033e5b3-0de7-48a3-98d9-d9a4b9df1f39.png"
+  },
+  {
+   "code": "PAR",
+   "name": "Partizan Mozzart Bet Belgrade",
+   "short": "Partizan",
+   "country": "Serbia",
+   "crest": "https://media-cdn.incrowdsports.com/2681304e-77dd-4331-88b1-683078c0fb49.png"
+  },
+  {
+   "code": "MAD",
+   "name": "Real Madrid",
+   "short": "Real Madrid",
+   "country": "Spain",
+   "crest": "https://media-cdn.incrowdsports.com/371b0d9b-9250-4c09-bda7-0686cf024657.png"
+  },
+  {
+   "code": "PAM",
+   "name": "Valencia Basket",
+   "short": "Valencia",
+   "country": "Spain",
+   "crest": "https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjChWbHL/bc3e00b2-fea4-40be-a7ec-1e633129bde3.png"
+  },
+  {
+   "code": "VIR",
+   "name": "Virtus Bologna",
+   "short": "Virtus Bologna",
+   "country": "Italy",
+   "crest": "https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjCiezvk/a92d4c3b-9f9c-4163-8a10-bcf8fc15893e.png"
+  },
+  {
+   "code": "ZAL",
+   "name": "Zalgiris Kaunas",
+   "short": "Zalgiris",
+   "country": "Lithuania",
+   "crest": "https://media-cdn.incrowdsports.com/0aa09358-3847-4c4e-b228-3582ee4e536d.png"
+  }
+ ],
+ "players": {
+  "P014213": {
+   "name": "PAYNE, CAMERON",
+   "short": "C. Payne",
+   "club": "IST",
+   "dorsal": "22",
+   "position": "Guard"
+  },
+  "P013422": {
+   "name": "FENEMEN, RUZGAR",
+   "short": "R. Fenemen",
+   "club": "IST",
+   "dorsal": "16",
+   "position": "Guard"
+  },
+  "P014102": {
+   "name": "JONES, KAI",
+   "short": "K. Jones",
+   "club": "IST",
+   "dorsal": "88",
+   "position": "Center"
+  },
+  "P005985": {
+   "name": "JAMES, MIKE",
+   "short": "M. James",
+   "club": "IST",
+   "dorsal": "55",
+   "position": "Guard"
+  },
+  "P008099": {
+   "name": "STRAZEL, MATTHEW",
+   "short": "M. Strazel",
+   "club": "IST",
+   "dorsal": "32",
+   "position": "Guard"
+  },
+  "P003112": {
+   "name": "SARIC, DARIO",
+   "short": "D. Saric",
+   "club": "IST",
+   "dorsal": "5",
+   "position": "Forward"
+  },
+  "P013667": {
+   "name": "FERNANDO, BRUNO",
+   "short": "B. Fernando",
+   "club": "IST",
+   "dorsal": "20",
+   "position": "Center"
+  },
+  "P005368": {
+   "name": "YUSTA, SANTI",
+   "short": "S. Yusta",
+   "club": "IST",
+   "dorsal": "4",
+   "position": "Forward"
+  },
+  "P012609": {
+   "name": "MALCOLM, COLLIN",
+   "short": "C. Malcolm",
+   "club": "IST",
+   "dorsal": "17",
+   "position": "Forward"
+  },
+  "P013943": {
+   "name": "RUSSELL, DARON",
+   "short": "D. Russell",
+   "club": "IST",
+   "dorsal": "11",
+   "position": "Guard"
+  },
+  "P009754": {
+   "name": "LOYD, JORDAN",
+   "short": "J. Loyd",
+   "club": "IST",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P013431": {
+   "name": "KARUTASU, DARIUS",
+   "short": "D. Karutasu",
+   "club": "IST",
+   "dorsal": "2",
+   "position": "Forward"
+  },
+  "P006372": {
+   "name": "YILMAZ, ERKAN",
+   "short": "E. Yilmaz",
+   "club": "IST",
+   "dorsal": "33",
+   "position": "Forward"
+  },
+  "P012710": {
+   "name": "OSMANI, ERCAN",
+   "short": "E. Osmani",
+   "club": "IST",
+   "dorsal": "24",
+   "position": "Forward"
+  },
+  "P008176": {
+   "name": "MUTAF, DAVID",
+   "short": "D. Mutaf",
+   "club": "IST",
+   "dorsal": "23",
+   "position": "Guard"
+  },
+  "P012742": {
+   "name": "DOZIER, PJ",
+   "short": "P. Dozier",
+   "club": "IST",
+   "dorsal": "15",
+   "position": "Guard"
+  },
+  "P009549": {
+   "name": "CORDINIER, ISAIA",
+   "short": "I. Cordinier",
+   "club": "IST",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P005844": {
+   "name": "PAPAGIANNIS, GEORGIOS",
+   "short": "G. Papagiannis",
+   "club": "IST",
+   "dorsal": "9",
+   "position": "Center"
+  },
+  "P014783": {
+   "name": "MATHEWS, GARRISON",
+   "short": "G. Mathews",
+   "club": "MIL",
+   "dorsal": "24",
+   "position": "Guard"
+  },
+  "P011816": {
+   "name": "AKELE, NICOLA",
+   "short": "N. Akele",
+   "club": "MIL",
+   "dorsal": "45",
+   "position": "Forward"
+  },
+  "P013929": {
+   "name": "COLE, RJ",
+   "short": "R. Cole",
+   "club": "MIL",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P014782": {
+   "name": "BURNELL, JASON",
+   "short": "J. Burnell",
+   "club": "MIL",
+   "dorsal": "0",
+   "position": "Forward"
+  },
+  "P008829": {
+   "name": "PETERS, ALEC",
+   "short": "A. Peters",
+   "club": "MIL",
+   "dorsal": "25",
+   "position": "Forward"
+  },
+  "P013385": {
+   "name": "DIOP, OUSMANE",
+   "short": "O. Diop",
+   "club": "MIL",
+   "dorsal": "6",
+   "position": "Center"
+  },
+  "P011205": {
+   "name": "HALL, DEVON",
+   "short": "D. Hall",
+   "club": "MIL",
+   "dorsal": "22",
+   "position": "Guard"
+  },
+  "P011078": {
+   "name": "THOMPSON, DARIUS",
+   "short": "D. Thompson",
+   "club": "MIL",
+   "dorsal": "13",
+   "position": "Guard"
+  },
+  "P006509": {
+   "name": "TONUT, STEFANO",
+   "short": "S. Tonut",
+   "club": "MIL",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P012878": {
+   "name": "WRIGHT, MOSES",
+   "short": "M. Wright",
+   "club": "MIL",
+   "dorsal": "5",
+   "position": "Center"
+  },
+  "P004004": {
+   "name": "GUDURIC, MARKO",
+   "short": "M. Guduric",
+   "club": "MIL",
+   "dorsal": "23",
+   "position": "Guard"
+  },
+  "P005670": {
+   "name": "FLACCADORI, DIEGO",
+   "short": "D. Flaccadori",
+   "club": "MIL",
+   "dorsal": "21",
+   "position": "Guard"
+  },
+  "P001518": {
+   "name": "RICCI, GIAMPAOLO",
+   "short": "G. Ricci",
+   "club": "MIL",
+   "dorsal": "17",
+   "position": "Forward"
+  },
+  "P008985": {
+   "name": "BOLMARO, LEANDRO",
+   "short": "L. Bolmaro",
+   "club": "MIL",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P007056": {
+   "name": "BOOKER, DEVIN",
+   "short": "D. Booker",
+   "club": "MIL",
+   "dorsal": "31",
+   "position": "Center"
+  },
+  "P014786": {
+   "name": "NOWELL, JAYLEN",
+   "short": "J. Nowell",
+   "club": "BES",
+   "dorsal": "24",
+   "position": "Guard"
+  },
+  "P005763": {
+   "name": "KORKMAZ, FURKAN",
+   "short": "F. Korkmaz",
+   "club": "BES",
+   "dorsal": "30",
+   "position": "Forward"
+  },
+  "P003091": {
+   "name": "BIRSEN, METECAN",
+   "short": "M. Birsen",
+   "club": "BES",
+   "dorsal": "11",
+   "position": "Center"
+  },
+  "P012233": {
+   "name": "AKSU, YAGIZ",
+   "short": "Y. Aksu",
+   "club": "BES",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P003783": {
+   "name": "UGURLU, BERK",
+   "short": "B. Ugurlu",
+   "club": "BES",
+   "dorsal": "6",
+   "position": "Guard"
+  },
+  "P013383": {
+   "name": "GABRIEL, WENYEN",
+   "short": "W. Gabriel",
+   "club": "BES",
+   "dorsal": "32",
+   "position": "Center"
+  },
+  "P004554": {
+   "name": "ZIZIC, ANTE",
+   "short": "A. Zizic",
+   "club": "BES",
+   "dorsal": "41",
+   "position": "Center"
+  },
+  "P009025": {
+   "name": "BROWN, ANTHONY",
+   "short": "A. Brown",
+   "club": "BES",
+   "dorsal": "21",
+   "position": "Forward"
+  },
+  "P014207": {
+   "name": "OMORUYI, EUGENE",
+   "short": "E. Omoruyi",
+   "club": "BES",
+   "dorsal": "20",
+   "position": "Center"
+  },
+  "P006661": {
+   "name": "WILBEKIN, SCOTTIE",
+   "short": "S. Wilbekin",
+   "club": "BES",
+   "dorsal": "12",
+   "position": "Guard"
+  },
+  "P009680": {
+   "name": "MORGAN, CONOR",
+   "short": "C. Morgan",
+   "club": "BES",
+   "dorsal": "9",
+   "position": "Center"
+  },
+  "P013250": {
+   "name": "DEJULIUS, DAVID",
+   "short": "D. Dejulius",
+   "club": "BES",
+   "dorsal": "5",
+   "position": "Guard"
+  },
+  "P014785": {
+   "name": "JEFFRIES, DAQUAN",
+   "short": "D. Jeffries",
+   "club": "BES",
+   "dorsal": "2",
+   "position": "Forward"
+  },
+  "P013285": {
+   "name": "DOTSON, DEVON",
+   "short": "D. Dotson",
+   "club": "BES",
+   "dorsal": "1",
+   "position": "Guard"
+  },
+  "P012806": {
+   "name": "BJELIC, ANDREJ",
+   "short": "A. Bjelic",
+   "club": "RED",
+   "dorsal": "30",
+   "position": "Guard"
+  },
+  "P010568": {
+   "name": "JONES, CHRIS",
+   "short": "C. Jones",
+   "club": "RED",
+   "dorsal": "1",
+   "position": "Guard"
+  },
+  "P011157": {
+   "name": "MOTLEY, JOHNATHAN",
+   "short": "J. Motley",
+   "club": "RED",
+   "dorsal": "0",
+   "position": "Center"
+  },
+  "P006482": {
+   "name": "KRAMER, DAVID",
+   "short": "D. Kramer",
+   "club": "RED",
+   "dorsal": "44",
+   "position": "Guard"
+  },
+  "P014728": {
+   "name": "BALDWIN, PATRICK",
+   "short": "P. Baldwin",
+   "club": "RED",
+   "dorsal": "24",
+   "position": "Forward"
+  },
+  "P010262": {
+   "name": "DJURISIC, NIKOLA",
+   "short": "N. Djurisic",
+   "club": "RED",
+   "dorsal": "23",
+   "position": "Guard"
+  },
+  "P007960": {
+   "name": "DAVIDOVAC, DEJAN",
+   "short": "D. Davidovac",
+   "club": "RED",
+   "dorsal": "7",
+   "position": "Forward"
+  },
+  "P010391": {
+   "name": "WEILER-BABB, NICK",
+   "short": "N. Weiler-Babb",
+   "club": "RED",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P012201": {
+   "name": "MONEKE, CHIMA",
+   "short": "C. Moneke",
+   "club": "RED",
+   "dorsal": "95",
+   "position": "Forward"
+  },
+  "P011982": {
+   "name": "OJELEYE, SEMI",
+   "short": "S. Ojeleye",
+   "club": "RED",
+   "dorsal": "37",
+   "position": "Forward"
+  },
+  "P013363": {
+   "name": "NWORA, JORDAN",
+   "short": "J. Nwora",
+   "club": "RED",
+   "dorsal": "33",
+   "position": "Forward"
+  },
+  "P014029": {
+   "name": "IZUNDU, EBUKA",
+   "short": "E. Izundu",
+   "club": "RED",
+   "dorsal": "15",
+   "position": "Center"
+  },
+  "P004007": {
+   "name": "DOBRIC, OGNJEN",
+   "short": "O. Dobric",
+   "club": "RED",
+   "dorsal": "13",
+   "position": "Forward"
+  },
+  "P011305": {
+   "name": "CARTER, TYSON",
+   "short": "T. Carter",
+   "club": "RED",
+   "dorsal": "11",
+   "position": "Guard"
+  },
+  "P014163": {
+   "name": "BUTLER, JARED",
+   "short": "J. Butler",
+   "club": "RED",
+   "dorsal": "6",
+   "position": "Guard"
+  },
+  "P014094": {
+   "name": "MILJENOVIC, STEFAN",
+   "short": "S. Miljenovic",
+   "club": "RED",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P005942": {
+   "name": "DANGUBIC, NEMANJA",
+   "short": "N. Dangubic",
+   "club": "DUB",
+   "dorsal": "2",
+   "position": "Forward"
+  },
+  "P011231": {
+   "name": "BLOSSOMGAME, JARON",
+   "short": "J. Blossomgame",
+   "club": "DUB",
+   "dorsal": "4",
+   "position": "Forward"
+  },
+  "P008855": {
+   "name": "WALKUP, THOMAS",
+   "short": "T. Walkup",
+   "club": "DUB",
+   "dorsal": "44",
+   "position": "Guard"
+  },
+  "P011212": {
+   "name": "OKOBO, ELIE",
+   "short": "E. Okobo",
+   "club": "DUB",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P001133": {
+   "name": "SHENGELIA, TORNIKE",
+   "short": "T. Shengelia",
+   "club": "DUB",
+   "dorsal": "23",
+   "position": "Forward"
+  },
+  "P014027": {
+   "name": "DIAKITE, MAMADI",
+   "short": "M. Diakite",
+   "club": "DUB",
+   "dorsal": "21",
+   "position": "Center"
+  },
+  "P014731": {
+   "name": "MINTZ, DAVION",
+   "short": "D. Mintz",
+   "club": "DUB",
+   "dorsal": "6",
+   "position": "Guard"
+  },
+  "P008325": {
+   "name": "KAMENJAS, KENAN",
+   "short": "K. Kamenjas",
+   "club": "DUB",
+   "dorsal": "34",
+   "position": "Center"
+  },
+  "P011194": {
+   "name": "PETRUSEV, FILIP",
+   "short": "F. Petrusev",
+   "club": "DUB",
+   "dorsal": "30",
+   "position": "Center"
+  },
+  "P012796": {
+   "name": "KABENGELE, MFIONDU",
+   "short": "M. Kabengele",
+   "club": "DUB",
+   "dorsal": "17",
+   "position": "Center"
+  },
+  "P006540": {
+   "name": "MUSA, DZANAN",
+   "short": "D. Musa",
+   "club": "DUB",
+   "dorsal": "13",
+   "position": "Guard"
+  },
+  "P014031": {
+   "name": "KONDIC, KOSTA",
+   "short": "K. Kondic",
+   "club": "DUB",
+   "dorsal": "11",
+   "position": "Guard"
+  },
+  "P012795": {
+   "name": "ANDERSON, JUSTIN",
+   "short": "J. Anderson",
+   "club": "DUB",
+   "dorsal": "1",
+   "position": "Forward"
+  },
+  "P003458": {
+   "name": "BERTANS, DAVIS",
+   "short": "D. Bertans",
+   "club": "DUB",
+   "dorsal": "8",
+   "position": "Forward"
+  },
+  "P002661": {
+   "name": "PREPELIC, KLEMEN",
+   "short": "K. Prepelic",
+   "club": "DUB",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P003527": {
+   "name": "ABASS, AWUDU",
+   "short": "A. Abass",
+   "club": "DUB",
+   "dorsal": "5",
+   "position": "Forward"
+  },
+  "P011286": {
+   "name": "BACON, DWAYNE",
+   "short": "D. Bacon",
+   "club": "DUB",
+   "dorsal": "3",
+   "position": "Forward"
+  },
+  "P012606": {
+   "name": "WRIGHT IV, MCKINLEY",
+   "short": "M. Wright Iv",
+   "club": "DUB",
+   "dorsal": "25",
+   "position": "Guard"
+  },
+  "P012879": {
+   "name": "KONE, ABDU",
+   "short": "A. Kone",
+   "club": "BAR",
+   "dorsal": "41",
+   "position": "Center"
+  },
+  "P011935": {
+   "name": "MAKOUNDOU, YOAN",
+   "short": "Y. Makoundou",
+   "club": "BAR",
+   "dorsal": "55",
+   "position": "Center"
+  },
+  "P011199": {
+   "name": "NEBO, JOSH",
+   "short": "J. Nebo",
+   "club": "BAR",
+   "dorsal": "32",
+   "position": "Center"
+  },
+  "P015142": {
+   "name": "MINAYA, JUSTIN",
+   "short": "J. Minaya",
+   "club": "BAR",
+   "dorsal": "24",
+   "position": "Guard"
+  },
+  "P007553": {
+   "name": "BALCEROWSKI, OLEK",
+   "short": "O. Balcerowski",
+   "club": "BAR",
+   "dorsal": "22",
+   "position": "Center"
+  },
+  "P015141": {
+   "name": "EVBUOMWAN, TOSAN",
+   "short": "T. Evbuomwan",
+   "club": "BAR",
+   "dorsal": "20",
+   "position": "Forward"
+  },
+  "P015140": {
+   "name": "NKAMHOUA, OLIVIER",
+   "short": "O. Nkamhoua",
+   "club": "BAR",
+   "dorsal": "13",
+   "position": "Forward"
+  },
+  "P010062": {
+   "name": "UBAL, AGUSTIN",
+   "short": "A. Ubal",
+   "club": "BAR",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P014008": {
+   "name": "ROBINSON, JUSTIN",
+   "short": "J. Robinson",
+   "club": "BAR",
+   "dorsal": "5",
+   "position": "Guard"
+  },
+  "P015139": {
+   "name": "UMUDE, STANLEY",
+   "short": "S. Umude",
+   "club": "BAR",
+   "dorsal": "3",
+   "position": "Forward"
+  },
+  "P015138": {
+   "name": "MARTIN, TYRESE",
+   "short": "T. Martin",
+   "club": "BAR",
+   "dorsal": "2",
+   "position": "Forward"
+  },
+  "P013855": {
+   "name": "GIBSON, UMOJA",
+   "short": "U. Gibson",
+   "club": "BAR",
+   "dorsal": "1",
+   "position": "Guard"
+  },
+  "P007464": {
+   "name": "PARRA, JOEL",
+   "short": "J. Parra",
+   "club": "BAR",
+   "dorsal": "44",
+   "position": "Forward"
+  },
+  "P010106": {
+   "name": "NUNEZ, JUAN",
+   "short": "J. Nunez",
+   "club": "BAR",
+   "dorsal": "17",
+   "position": "Guard"
+  },
+  "P009992": {
+   "name": "BRIZUELA, DARIO",
+   "short": "D. Brizuela",
+   "club": "BAR",
+   "dorsal": "8",
+   "position": "Guard"
+  },
+  "P009862": {
+   "name": "PUNTER, KEVIN",
+   "short": "K. Punter",
+   "club": "BAR",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P013541": {
+   "name": "VOSSENBERG, CASPAR",
+   "short": "C. Vossenberg",
+   "club": "MUN",
+   "dorsal": "37",
+   "position": "Guard"
+  },
+  "P007519": {
+   "name": "JOKUBAITIS, ROKAS",
+   "short": "R. Jokubaitis",
+   "club": "MUN",
+   "dorsal": "31",
+   "position": "Guard"
+  },
+  "P013278": {
+   "name": "WILEY, AUSTIN",
+   "short": "A. Wiley",
+   "club": "MUN",
+   "dorsal": "50",
+   "position": "Center"
+  },
+  "P012838": {
+   "name": "SUSIC, ANDRIJA",
+   "short": "A. Susic",
+   "club": "MUN",
+   "dorsal": "42",
+   "position": "Guard"
+  },
+  "P012158": {
+   "name": "JERKIC, NIKO",
+   "short": "N. Jerkic",
+   "club": "MUN",
+   "dorsal": "39",
+   "position": "Guard"
+  },
+  "P003958": {
+   "name": "THIEMANN, JOHANNES",
+   "short": "J. Thiemann",
+   "club": "MUN",
+   "dorsal": "32",
+   "position": "Center"
+  },
+  "P013579": {
+   "name": "FISCHER, KILIAN",
+   "short": "K. Fischer",
+   "club": "MUN",
+   "dorsal": "17",
+   "position": "Center"
+  },
+  "P004508": {
+   "name": "OBST, ANDREAS",
+   "short": "A. Obst",
+   "club": "MUN",
+   "dorsal": "13",
+   "position": "Guard"
+  },
+  "P010726": {
+   "name": "JENSEN, TOBIAS",
+   "short": "T. Jensen",
+   "club": "MUN",
+   "dorsal": "8",
+   "position": "Guard"
+  },
+  "P013370": {
+   "name": "WASHINGTON, DUANE",
+   "short": "D. Washington",
+   "club": "MUN",
+   "dorsal": "4",
+   "position": "Guard"
+  },
+  "P014732": {
+   "name": "BEAUCHAMP, MARJON",
+   "short": "M. Beauchamp",
+   "club": "MUN",
+   "dorsal": "3",
+   "position": "Forward"
+  },
+  "P014134": {
+   "name": "NORRIS, MILES",
+   "short": "M. Norris",
+   "club": "MUN",
+   "dorsal": "0",
+   "position": "Forward"
+  },
+  "P012597": {
+   "name": "BALDWIN, KAMAR",
+   "short": "K. Baldwin",
+   "club": "MUN",
+   "dorsal": "44",
+   "position": "Guard"
+  },
+  "P009513": {
+   "name": "HOLLATZ, JUSTUS",
+   "short": "J. Hollatz",
+   "club": "MUN",
+   "dorsal": "21",
+   "position": "Guard"
+  },
+  "P001288": {
+   "name": "LUCIC, VLADIMIR",
+   "short": "V. Lucic",
+   "club": "MUN",
+   "dorsal": "11",
+   "position": "Forward"
+  },
+  "P013290": {
+   "name": "JESSUP, JUSTINIAN",
+   "short": "J. Jessup",
+   "club": "MUN",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P007201": {
+   "name": "VOIGTMANN, JOHANNES",
+   "short": "J. Voigtmann",
+   "club": "MUN",
+   "dorsal": "7",
+   "position": "Center"
+  },
+  "P001557": {
+   "name": "GIFFEY, NIELS",
+   "short": "N. Giffey",
+   "club": "MUN",
+   "dorsal": "5",
+   "position": "Forward"
+  },
+  "P011244": {
+   "name": "DA SILVA, OSCAR",
+   "short": "O. Da Silva",
+   "club": "MUN",
+   "dorsal": "1",
+   "position": "Forward"
+  },
+  "P007200": {
+   "name": "LARKIN, SHANE",
+   "short": "S. Larkin",
+   "club": "ULK",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P002969": {
+   "name": "MAHMUTOGLU, MELIH",
+   "short": "M. Mahmutoglu",
+   "club": "ULK",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P002968": {
+   "name": "SANLI, SERTAC",
+   "short": "S. Sanli",
+   "club": "ULK",
+   "dorsal": "5",
+   "position": "Center"
+  },
+  "P002849": {
+   "name": "MELLI, NICOLO",
+   "short": "N. Melli",
+   "club": "ULK",
+   "dorsal": "4",
+   "position": "Forward"
+  },
+  "P006896": {
+   "name": "SARGIUNAS, IGNAS",
+   "short": "I. Sargiunas",
+   "club": "ULK",
+   "dorsal": "43",
+   "position": "Guard"
+  },
+  "P007831": {
+   "name": "SHIELDS, SHAVON",
+   "short": "S. Shields",
+   "club": "ULK",
+   "dorsal": "31",
+   "position": "Forward"
+  },
+  "P004888": {
+   "name": "CLYBURN, WILL",
+   "short": "W. Clyburn",
+   "club": "ULK",
+   "dorsal": "21",
+   "position": "Forward"
+  },
+  "P014168": {
+   "name": "KEY, BRAXTON",
+   "short": "B. Key",
+   "club": "ULK",
+   "dorsal": "12",
+   "position": "Forward"
+  },
+  "P013367": {
+   "name": "FORREST, TRENT",
+   "short": "T. Forrest",
+   "club": "ULK",
+   "dorsal": "11",
+   "position": "Guard"
+  },
+  "P014733": {
+   "name": "JUZANG, JOHNNY",
+   "short": "J. Juzang",
+   "club": "ULK",
+   "dorsal": "9",
+   "position": "Forward"
+  },
+  "P013506": {
+   "name": "BINGHAM, MARCUS",
+   "short": "M. Bingham",
+   "club": "ULK",
+   "dorsal": "1",
+   "position": "Center"
+  },
+  "P014220": {
+   "name": "SILVA, CHRIS",
+   "short": "C. Silva",
+   "club": "ULK",
+   "dorsal": "30",
+   "position": "Center"
+  },
+  "P007929": {
+   "name": "BITIM, ONURALP",
+   "short": "O. Bitim",
+   "club": "ULK",
+   "dorsal": "17",
+   "position": "Forward"
+  },
+  "P014124": {
+   "name": "HORTON TUCKER, TALEN",
+   "short": "T. Horton Tucker",
+   "club": "ULK",
+   "dorsal": "8",
+   "position": "Guard"
+  },
+  "P009863": {
+   "name": "BALDWIN IV, WADE",
+   "short": "W. Baldwin Iv",
+   "club": "ULK",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P008912": {
+   "name": "CARRINGTON, KHADEEN",
+   "short": "K. Carrington",
+   "club": "HTA",
+   "dorsal": "5",
+   "position": "Guard"
+  },
+  "P012096": {
+   "name": "CABOCLO, BRUNO",
+   "short": "B. Caboclo",
+   "club": "HTA",
+   "dorsal": "51",
+   "position": "Center"
+  },
+  "P008987": {
+   "name": "LEDAY, ZACH",
+   "short": "Z. Leday",
+   "club": "HTA",
+   "dorsal": "16",
+   "position": "Forward"
+  },
+  "P002939": {
+   "name": "SATORANSKY, TOMAS",
+   "short": "T. Satoransky",
+   "club": "HTA",
+   "dorsal": "13",
+   "position": "Guard"
+  },
+  "P015153": {
+   "name": "COFFEY, AMIR",
+   "short": "A. Coffey",
+   "club": "HTA",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P015152": {
+   "name": "GERMAN, EUGENE",
+   "short": "E. German",
+   "club": "HTA",
+   "dorsal": "1",
+   "position": "Guard"
+  },
+  "P015151": {
+   "name": "TOPPIN, JACOB",
+   "short": "J. Toppin",
+   "club": "HTA",
+   "dorsal": "0",
+   "position": "Forward"
+  },
+  "P013284": {
+   "name": "WAINRIGHT, ISH",
+   "short": "I. Wainright",
+   "club": "HTA",
+   "dorsal": "12",
+   "position": "Forward"
+  },
+  "P010550": {
+   "name": "GINAT, TOMER",
+   "short": "T. Ginat",
+   "club": "HTA",
+   "dorsal": "41",
+   "position": "Forward"
+  },
+  "P012788": {
+   "name": "OTURU, DAN",
+   "short": "D. Oturu",
+   "club": "HTA",
+   "dorsal": "25",
+   "position": "Center"
+  },
+  "P002580": {
+   "name": "MICIC, VASILIJE",
+   "short": "V. Micic",
+   "club": "HTA",
+   "dorsal": "22",
+   "position": "Guard"
+  },
+  "P011823": {
+   "name": "ODIASE, TAI",
+   "short": "T. Odiase",
+   "club": "HTA",
+   "dorsal": "21",
+   "position": "Center"
+  },
+  "P009877": {
+   "name": "BLAYZER, OZ",
+   "short": "O. Blayzer",
+   "club": "HTA",
+   "dorsal": "14",
+   "position": "Forward"
+  },
+  "P008858": {
+   "name": "ENNIS, TYLER",
+   "short": "T. Ennis",
+   "club": "HTA",
+   "dorsal": "11",
+   "position": "Guard"
+  },
+  "P004846": {
+   "name": "TIMOR, BAR",
+   "short": "B. Timor",
+   "club": "HTA",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P013283": {
+   "name": "PALATIN, GUY",
+   "short": "G. Palatin",
+   "club": "HTA",
+   "dorsal": "9",
+   "position": "Guard"
+  },
+  "P009846": {
+   "name": "BRYANT, ELIJAH",
+   "short": "E. Bryant",
+   "club": "HTA",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P013402": {
+   "name": "BLAKENEY, ANTONIO",
+   "short": "A. Blakeney",
+   "club": "HTA",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P013289": {
+   "name": "SANTOS, MARCIO",
+   "short": "M. Santos",
+   "club": "TEL",
+   "dorsal": "3",
+   "position": "Center"
+  },
+  "P014169": {
+   "name": "LEN, ALEX",
+   "short": "A. Len",
+   "club": "BAS",
+   "dorsal": "21",
+   "position": "Center"
+  },
+  "P014506": {
+   "name": "ALVES DE SOUZA, THIERRY HENRY",
+   "short": "T. Alves De Souza",
+   "club": "BAS",
+   "dorsal": "16",
+   "position": "Center"
+  },
+  "P014103": {
+   "name": "SOUZA, PEDRO",
+   "short": "P. Souza",
+   "club": "BAS",
+   "dorsal": "11",
+   "position": "Forward"
+  },
+  "P014107": {
+   "name": "JOKSIMOVIC, STEFAN",
+   "short": "S. Joksimovic",
+   "club": "BAS",
+   "dorsal": "6",
+   "position": "Forward"
+  },
+  "P011284": {
+   "name": "FARIED, KENNETH",
+   "short": "K. Faried",
+   "club": "BAS",
+   "dorsal": "35",
+   "position": "Center"
+  },
+  "P012700": {
+   "name": "STEWART, DJ",
+   "short": "D. Stewart",
+   "club": "BAS",
+   "dorsal": "3",
+   "position": "Forward"
+  },
+  "P014736": {
+   "name": "BAUGH, DAMION",
+   "short": "D. Baugh",
+   "club": "BAS",
+   "dorsal": "12",
+   "position": "Guard"
+  },
+  "P014735": {
+   "name": "DUARTE, CHRIS",
+   "short": "C. Duarte",
+   "club": "BAS",
+   "dorsal": "5",
+   "position": "Forward"
+  },
+  "P014152": {
+   "name": "SIMMONS, KOBI",
+   "short": "K. Simmons",
+   "club": "BAS",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P014734": {
+   "name": "LAWSON, A.J.",
+   "short": "A. Lawson",
+   "club": "BAS",
+   "dorsal": "1",
+   "position": "Forward"
+  },
+  "P014026": {
+   "name": "FRISCH, CLEMENT",
+   "short": "C. Frisch",
+   "club": "BAS",
+   "dorsal": "25",
+   "position": "Forward"
+  },
+  "P008173": {
+   "name": "SPAGNOLO, MATTEO",
+   "short": "M. Spagnolo",
+   "club": "BAS",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P007230": {
+   "name": "SEDEKERSKIS, TADAS",
+   "short": "T. Sedekerskis",
+   "club": "BAS",
+   "dorsal": "8",
+   "position": "Forward"
+  },
+  "P005713": {
+   "name": "KURUCS, RODIONS",
+   "short": "R. Kurucs",
+   "club": "BAS",
+   "dorsal": "7",
+   "position": "Forward"
+  },
+  "P011948": {
+   "name": "HOWARD, MARKUS",
+   "short": "M. Howard",
+   "club": "BAS",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P014597": {
+   "name": "SANZ, LORENZ",
+   "short": "L. Sanz",
+   "club": "ASV",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P008161": {
+   "name": "BEGARIN, JUHANN",
+   "short": "J. Begarin",
+   "club": "ASV",
+   "dorsal": "97",
+   "position": "Forward"
+  },
+  "P015166": {
+   "name": "CROWDER, JAE",
+   "short": "J. Crowder",
+   "club": "ASV",
+   "dorsal": "99",
+   "position": "Forward"
+  },
+  "P011980": {
+   "name": "SESTINA, NATHAN",
+   "short": "N. Sestina",
+   "club": "ASV",
+   "dorsal": "77",
+   "position": "Forward"
+  },
+  "P015165": {
+   "name": "WATERS, TREMONT",
+   "short": "T. Waters",
+   "club": "ASV",
+   "dorsal": "51",
+   "position": "Guard"
+  },
+  "P006832": {
+   "name": "PONS, YVES",
+   "short": "Y. Pons",
+   "club": "ASV",
+   "dorsal": "35",
+   "position": "Forward"
+  },
+  "P015164": {
+   "name": "BESSON, HUGO",
+   "short": "H. Besson",
+   "club": "ASV",
+   "dorsal": "25",
+   "position": "Guard"
+  },
+  "P003526": {
+   "name": "LIGHTY, DAVID",
+   "short": "D. Lighty",
+   "club": "ASV",
+   "dorsal": "23",
+   "position": "Forward"
+  },
+  "P009035": {
+   "name": "BOLOMBOY, JOEL",
+   "short": "J. Bolomboy",
+   "club": "ASV",
+   "dorsal": "21",
+   "position": "Center"
+  },
+  "P013900": {
+   "name": "GACH, BOTH",
+   "short": "B. Gach",
+   "club": "ASV",
+   "dorsal": "14",
+   "position": "Forward"
+  },
+  "P007483": {
+   "name": "DOSSOU-YOVO, MATHIS",
+   "short": "M. Dossou-Yovo",
+   "club": "ASV",
+   "dorsal": "12",
+   "position": "Center"
+  },
+  "P000229": {
+   "name": "JACKSON, EDWIN",
+   "short": "E. Jackson",
+   "club": "ASV",
+   "dorsal": "11",
+   "position": "Forward"
+  },
+  "P015163": {
+   "name": "MILLS, PATTY",
+   "short": "P. Mills",
+   "club": "ASV",
+   "dorsal": "8",
+   "position": "Guard"
+  },
+  "P015162": {
+   "name": "WASHINGTON JR, TYTY",
+   "short": "T. Washington Jr",
+   "club": "ASV",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P015161": {
+   "name": "FODZO DADA, MARC-OWEN",
+   "short": "M. Fodzo Dada",
+   "club": "ASV",
+   "dorsal": "1",
+   "position": "Guard"
+  },
+  "P013269": {
+   "name": "CALE, MYLES",
+   "short": "M. Cale",
+   "club": "ASV",
+   "dorsal": "0",
+   "position": "Forward"
+  },
+  "P012618": {
+   "name": "MASSA, BODIAN",
+   "short": "B. Massa",
+   "club": "ASV",
+   "dorsal": "10",
+   "position": "Forward"
+  },
+  "P011052": {
+   "name": "MADAR, YAM",
+   "short": "Y. Madar",
+   "club": "TEL",
+   "dorsal": "26",
+   "position": "Guard"
+  },
+  "P004132": {
+   "name": "THEIS, DANIEL",
+   "short": "D. Theis",
+   "club": "TEL",
+   "dorsal": "23",
+   "position": "Center"
+  },
+  "P009783": {
+   "name": "COLSON, BONZIE",
+   "short": "B. Colson",
+   "club": "TEL",
+   "dorsal": "50",
+   "position": "Forward"
+  },
+  "P015085": {
+   "name": "WALLACE, KEATON",
+   "short": "K. Wallace",
+   "club": "TEL",
+   "dorsal": "17",
+   "position": "Guard"
+  },
+  "P007990": {
+   "name": "DIBARTOLOMEO, JOHN",
+   "short": "J. Dibartolomeo",
+   "club": "TEL",
+   "dorsal": "12",
+   "position": "Guard"
+  },
+  "P010781": {
+   "name": "LUNDBERG, IFFE",
+   "short": "I. Lundberg",
+   "club": "TEL",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P013381": {
+   "name": "RAYMAN, WILLIAM",
+   "short": "W. Rayman",
+   "club": "TEL",
+   "dorsal": "11",
+   "position": "Forward"
+  },
+  "P014015": {
+   "name": "BACOT JR., ARMANDO",
+   "short": "A. Bacot Jr.",
+   "club": "TEL",
+   "dorsal": "5",
+   "position": "Center"
+  },
+  "P014012": {
+   "name": "LEAF, TJ",
+   "short": "T. Leaf",
+   "club": "TEL",
+   "dorsal": "22",
+   "position": "Forward"
+  },
+  "P014127": {
+   "name": "BRISSETT, O'SHAE J",
+   "short": "O. Brissett",
+   "club": "TEL",
+   "dorsal": "10",
+   "position": "Forward"
+  },
+  "P011219": {
+   "name": "SORKIN, ROMAN",
+   "short": "R. Sorkin",
+   "club": "TEL",
+   "dorsal": "9",
+   "position": "Forward"
+  },
+  "P006020": {
+   "name": "EBO, AMIT",
+   "short": "A. Ebo",
+   "club": "TEL",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P014120": {
+   "name": "LAVI, GUR",
+   "short": "G. Lavi",
+   "club": "TEL",
+   "dorsal": "4",
+   "position": "Forward"
+  },
+  "P013699": {
+   "name": "CLARK III, JIMMY",
+   "short": "J. Clark Iii",
+   "club": "TEL",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P006835": {
+   "name": "HOARD, JAYLEN",
+   "short": "J. Hoard",
+   "club": "TEL",
+   "dorsal": "1",
+   "position": "Forward"
+  },
+  "P003048": {
+   "name": "DUNSTON, BRYANT",
+   "short": "B. Dunston",
+   "club": "OLY",
+   "dorsal": "42",
+   "position": "Center"
+  },
+  "P010091": {
+   "name": "PLOTAS, NIKOLAOS",
+   "short": "N. Plotas",
+   "club": "OLY",
+   "dorsal": "9",
+   "position": "Guard"
+  },
+  "P013141": {
+   "name": "BOURNELES, GEORGIOS",
+   "short": "G. Bourneles",
+   "club": "OLY",
+   "dorsal": "4",
+   "position": "Guard"
+  },
+  "P015126": {
+   "name": "KARAGIANNIDIS, ANTONIS",
+   "short": "A. Karagiannidis",
+   "club": "OLY",
+   "dorsal": "29",
+   "position": "Center"
+  },
+  "P010042": {
+   "name": "MONTERO, JEAN",
+   "short": "J. Montero",
+   "club": "OLY",
+   "dorsal": "8",
+   "position": "Guard"
+  },
+  "P012731": {
+   "name": "NDIAYE, MBAYE",
+   "short": "M. Ndiaye",
+   "club": "OLY",
+   "dorsal": "24",
+   "position": "Forward"
+  },
+  "P009048": {
+   "name": "MILLER-MCINTYRE, CODI",
+   "short": "C. Miller-Mcintyre",
+   "club": "OLY",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P001255": {
+   "name": "PAPANIKOLAOU, KOSTAS",
+   "short": "K. Papanikolaou",
+   "club": "OLY",
+   "dorsal": "16",
+   "position": "Forward"
+  },
+  "P013380": {
+   "name": "FOURNIER, EVAN",
+   "short": "E. Fournier",
+   "club": "OLY",
+   "dorsal": "94",
+   "position": "Forward"
+  },
+  "P011981": {
+   "name": "JONES, TYRIQUE",
+   "short": "T. Jones",
+   "club": "OLY",
+   "dorsal": "88",
+   "position": "Center"
+  },
+  "P011196": {
+   "name": "HALL, DONTA",
+   "short": "D. Hall",
+   "club": "OLY",
+   "dorsal": "45",
+   "position": "Center"
+  },
+  "P014316": {
+   "name": "JOSEPH, CORY",
+   "short": "C. Joseph",
+   "club": "OLY",
+   "dorsal": "34",
+   "position": "Guard"
+  },
+  "P003941": {
+   "name": "MILUTINOV, NIKOLA",
+   "short": "N. Milutinov",
+   "club": "OLY",
+   "dorsal": "33",
+   "position": "Center"
+  },
+  "P009849": {
+   "name": "DORSEY, TYLER",
+   "short": "T. Dorsey",
+   "club": "OLY",
+   "dorsal": "22",
+   "position": "Guard"
+  },
+  "P014122": {
+   "name": "NETZIPOGLOU, OMIROS",
+   "short": "O. Netzipoglou",
+   "club": "OLY",
+   "dorsal": "21",
+   "position": "Guard"
+  },
+  "P003469": {
+   "name": "VEZENKOV, SASHA",
+   "short": "S. Vezenkov",
+   "club": "OLY",
+   "dorsal": "14",
+   "position": "Forward"
+  },
+  "P012610": {
+   "name": "WARD, TYSON",
+   "short": "T. Ward",
+   "club": "OLY",
+   "dorsal": "3",
+   "position": "Forward"
+  },
+  "P008084": {
+   "name": "MANTZOUKAS, ELEFTHERIOS",
+   "short": "E. Mantzoukas",
+   "club": "PAN",
+   "dorsal": "72",
+   "position": "Forward"
+  },
+  "P006544": {
+   "name": "MORAITIS, DIMITRIS",
+   "short": "D. Moraitis",
+   "club": "PAN",
+   "dorsal": "6",
+   "position": "Guard"
+  },
+  "P015159": {
+   "name": "VARVARITIS, IASON",
+   "short": "I. Varvaritis",
+   "club": "PAN",
+   "dorsal": "12",
+   "position": "Guard"
+  },
+  "P007527": {
+   "name": "BADIO, BRANCOU",
+   "short": "B. Badio",
+   "club": "PAN",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P008811": {
+   "name": "FALL, MOUSTAPHA",
+   "short": "M. Fall",
+   "club": "PAN",
+   "dorsal": "93",
+   "position": "Center"
+  },
+  "P001926": {
+   "name": "SLOUKAS, KOSTAS",
+   "short": "K. Sloukas",
+   "club": "PAN",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P007975": {
+   "name": "FRANCISCO, SYLVAIN",
+   "short": "S. Francisco",
+   "club": "PAN",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P007866": {
+   "name": "MITOGLOU, KONSTANTINOS",
+   "short": "K. Mitoglou",
+   "club": "PAN",
+   "dorsal": "44",
+   "position": "Forward"
+  },
+  "P006760": {
+   "name": "BONGA, ISAAC",
+   "short": "I. Bonga",
+   "club": "PAN",
+   "dorsal": "32",
+   "position": "Forward"
+  },
+  "P010357": {
+   "name": "YABUSELE, GUERSCHON",
+   "short": "G. Yabusele",
+   "club": "PAN",
+   "dorsal": "28",
+   "position": "Forward"
+  },
+  "P012712": {
+   "name": "HERNANGOMEZ, JUANCHO",
+   "short": "J. Hernangomez",
+   "club": "PAN",
+   "dorsal": "41",
+   "position": "Forward"
+  },
+  "P003842": {
+   "name": "LESSORT, MATHIAS",
+   "short": "M. Lessort",
+   "club": "PAN",
+   "dorsal": "26",
+   "position": "Center"
+  },
+  "P012774": {
+   "name": "NUNN, KENDRICK",
+   "short": "K. Nunn",
+   "club": "PAN",
+   "dorsal": "25",
+   "position": "Guard"
+  },
+  "P004451": {
+   "name": "KOUZELOGLOU, IOANNIS",
+   "short": "I. Kouzeloglou",
+   "club": "PAN",
+   "dorsal": "24",
+   "position": "Center"
+  },
+  "P011204": {
+   "name": "GRANT, JERIAN",
+   "short": "J. Grant",
+   "club": "PAN",
+   "dorsal": "22",
+   "position": "Guard"
+  },
+  "P011085": {
+   "name": "ROGKAVOPOULOS, NIKOLAOS",
+   "short": "N. Rogkavopoulos",
+   "club": "PAN",
+   "dorsal": "17",
+   "position": "Forward"
+  },
+  "P008962": {
+   "name": "HAYES-DAVIS, NIGEL",
+   "short": "N. Hayes-Davis",
+   "club": "PAN",
+   "dorsal": "11",
+   "position": "Forward"
+  },
+  "P011209": {
+   "name": "KALAITZAKIS, PANAGIOTIS",
+   "short": "P. Kalaitzakis",
+   "club": "PAN",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P006591": {
+   "name": "NTILIKINA, FRANK",
+   "short": "F. Ntilikina",
+   "club": "PRS",
+   "dorsal": "5",
+   "position": "Guard"
+  },
+  "P015168": {
+   "name": "WARREN, TJ",
+   "short": "T. Warren",
+   "club": "PRS",
+   "dorsal": "1",
+   "position": "Forward"
+  },
+  "P015160": {
+   "name": "JOHNSON, ALIZE",
+   "short": "A. Johnson",
+   "club": "PRS",
+   "dorsal": "24",
+   "position": "Forward"
+  },
+  "P015143": {
+   "name": "ETIENNE, TYSON",
+   "short": "T. Etienne",
+   "club": "PRS",
+   "dorsal": "9",
+   "position": "Guard"
+  },
+  "P014801": {
+   "name": "PEREIRA, MAOZINHA",
+   "short": "M. Pereira",
+   "club": "PRS",
+   "dorsal": "45",
+   "position": "Forward"
+  },
+  "P011949": {
+   "name": "HOMMES, DAULTON",
+   "short": "D. Hommes",
+   "club": "PRS",
+   "dorsal": "34",
+   "position": "Forward"
+  },
+  "P013373": {
+   "name": "CAVALIERE, LEOPOLD",
+   "short": "L. Cavaliere",
+   "club": "PRS",
+   "dorsal": "4",
+   "position": "Forward"
+  },
+  "P012515": {
+   "name": "TARPEY, TERRY",
+   "short": "T. Tarpey",
+   "club": "PRS",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P007993": {
+   "name": "M'BAYE, AMATH",
+   "short": "A. M'Baye",
+   "club": "PRS",
+   "dorsal": "22",
+   "position": "Forward"
+  },
+  "P010431": {
+   "name": "MORGAN, JEREMY",
+   "short": "J. Morgan",
+   "club": "PRS",
+   "dorsal": "20",
+   "position": "Forward"
+  },
+  "P012403": {
+   "name": "FAYE, MOUHAMED",
+   "short": "M. Faye",
+   "club": "PRS",
+   "dorsal": "15",
+   "position": "Center"
+  },
+  "P014010": {
+   "name": "DOKOSSI, ALLAN",
+   "short": "A. Dokossi",
+   "club": "PRS",
+   "dorsal": "13",
+   "position": "Center"
+  },
+  "P006904": {
+   "name": "AYAYI, JOEL",
+   "short": "J. Ayayi",
+   "club": "PRS",
+   "dorsal": "11",
+   "position": "Guard"
+  },
+  "P014178": {
+   "name": "RHODEN, JARED",
+   "short": "J. Rhoden",
+   "club": "PRS",
+   "dorsal": "8",
+   "position": "Guard"
+  },
+  "P012611": {
+   "name": "HERRERA, SEBASTIAN",
+   "short": "S. Herrera",
+   "club": "PRS",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P012640": {
+   "name": "HIFI, NADIR",
+   "short": "N. Hifi",
+   "club": "PRS",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P005793": {
+   "name": "SY, BANDJA",
+   "short": "B. Sy",
+   "club": "PAR",
+   "dorsal": "95",
+   "position": "Forward"
+  },
+  "P012453": {
+   "name": "DANILOVIC, UROS",
+   "short": "U. Danilovic",
+   "club": "PAR",
+   "dorsal": "44",
+   "position": "Forward"
+  },
+  "P013369": {
+   "name": "JONES, CARLIK",
+   "short": "C. Jones",
+   "club": "PAR",
+   "dorsal": "1",
+   "position": "Guard"
+  },
+  "P004194": {
+   "name": "LAUVERGNE, JOFFREY",
+   "short": "J. Lauvergne",
+   "club": "PAR",
+   "dorsal": "77",
+   "position": "Center"
+  },
+  "P006739": {
+   "name": "PAJOLA, ALESSANDRO",
+   "short": "A. Pajola",
+   "club": "PAR",
+   "dorsal": "66",
+   "position": "Guard"
+  },
+  "P009664": {
+   "name": "WILLIS, DEREK",
+   "short": "D. Willis",
+   "club": "PAR",
+   "dorsal": "35",
+   "position": "Center"
+  },
+  "P009733": {
+   "name": "JEKIRI, TONYE",
+   "short": "T. Jekiri",
+   "club": "PAR",
+   "dorsal": "23",
+   "position": "Center"
+  },
+  "P010390": {
+   "name": "HAYES, KEVARRIUS",
+   "short": "K. Hayes",
+   "club": "PAR",
+   "dorsal": "13",
+   "position": "Center"
+  },
+  "P014009": {
+   "name": "STEVENS, LAMAR",
+   "short": "L. Stevens",
+   "club": "PAR",
+   "dorsal": "11",
+   "position": "Forward"
+  },
+  "P005637": {
+   "name": "TANASKOVIC, NIKOLA",
+   "short": "N. Tanaskovic",
+   "club": "PAR",
+   "dorsal": "10",
+   "position": "Center"
+  },
+  "P004761": {
+   "name": "MARINKOVIC, VANJA",
+   "short": "V. Marinkovic",
+   "club": "PAR",
+   "dorsal": "9",
+   "position": "Forward"
+  },
+  "P014742": {
+   "name": "THOMPSON, ETHAN",
+   "short": "E. Thompson",
+   "club": "PAR",
+   "dorsal": "5",
+   "position": "Forward"
+  },
+  "P007947": {
+   "name": "VILDOZA, LUCA",
+   "short": "L. Vildoza",
+   "club": "PAR",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P011924": {
+   "name": "ALLMAN, KYLE",
+   "short": "K. Allman",
+   "club": "PAR",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P007736": {
+   "name": "LAKIC, ARIJAN",
+   "short": "A. Lakic",
+   "club": "PAR",
+   "dorsal": "19",
+   "position": "Forward"
+  },
+  "P007632": {
+   "name": "NAKIC, MARIO",
+   "short": "M. Nakic",
+   "club": "PAR",
+   "dorsal": "7",
+   "position": "Forward"
+  },
+  "P014380": {
+   "name": "KUTLUAY, OMER",
+   "short": "O. Kutluay",
+   "club": "MAD",
+   "dorsal": "27",
+   "position": "Guard"
+  },
+  "P014635": {
+   "name": "SARR, SERIGNE",
+   "short": "S. Sarr",
+   "club": "MAD",
+   "dorsal": "17",
+   "position": "Center"
+  },
+  "P014384": {
+   "name": "MERA, PABLO",
+   "short": "P. Mera",
+   "club": "MAD",
+   "dorsal": "15",
+   "position": "Guard"
+  },
+  "P014244": {
+   "name": "DOLO, SEYDOU",
+   "short": "S. Dolo",
+   "club": "MAD",
+   "dorsal": "13",
+   "position": "Forward"
+  },
+  "P013553": {
+   "name": "KAYSER, FABIAN",
+   "short": "F. Kayser",
+   "club": "MAD",
+   "dorsal": "11",
+   "position": "Forward"
+  },
+  "P014379": {
+   "name": "ROBINSON, RHYS",
+   "short": "R. Robinson",
+   "club": "MAD",
+   "dorsal": "5",
+   "position": "Forward"
+  },
+  "P015244": {
+   "name": "SMITH JR, NICK",
+   "short": "N. Smith Jr",
+   "club": "MAD",
+   "dorsal": "1",
+   "position": "Forward"
+  },
+  "P015103": {
+   "name": "JONES, DAMIAN",
+   "short": "D. Jones",
+   "club": "MAD",
+   "dorsal": "30",
+   "position": "Center"
+  },
+  "PTGB": {
+   "name": "LLULL, SERGIO",
+   "short": "S. Llull",
+   "club": "MAD",
+   "dorsal": "23",
+   "position": "Guard"
+  },
+  "P012613": {
+   "name": "JANTUNEN, MIKAEL",
+   "short": "M. Jantunen",
+   "club": "MAD",
+   "dorsal": "20",
+   "position": "Forward"
+  },
+  "P010393": {
+   "name": "PRADILLA, JAIME",
+   "short": "J. Pradilla",
+   "club": "MAD",
+   "dorsal": "4",
+   "position": "Forward"
+  },
+  "P012080": {
+   "name": "LUWAWU-CABARROT, TIMOTHE",
+   "short": "T. Luwawu-Cabarrot",
+   "club": "MAD",
+   "dorsal": "3",
+   "position": "Forward"
+  },
+  "P015102": {
+   "name": "SHULGA, MAKSYM",
+   "short": "M. Shulga",
+   "club": "MAD",
+   "dorsal": "2",
+   "position": "Forward"
+  },
+  "P006833": {
+   "name": "SARR, OLIVIER",
+   "short": "O. Sarr",
+   "club": "MAD",
+   "dorsal": "33",
+   "position": "Center"
+  },
+  "P011247": {
+   "name": "FELIZ, ANDRES",
+   "short": "A. Feliz",
+   "club": "MAD",
+   "dorsal": "24",
+   "position": "Guard"
+  },
+  "P005791": {
+   "name": "TAVARES, WALTER",
+   "short": "W. Tavares",
+   "club": "MAD",
+   "dorsal": "22",
+   "position": "Center"
+  },
+  "P007630": {
+   "name": "GARUBA, USMAN",
+   "short": "U. Garuba",
+   "club": "MAD",
+   "dorsal": "16",
+   "position": "Center"
+  },
+  "P009005": {
+   "name": "DECK, GABRIEL",
+   "short": "G. Deck",
+   "club": "MAD",
+   "dorsal": "14",
+   "position": "Forward"
+  },
+  "P007027": {
+   "name": "MALEDON, THEO",
+   "short": "T. Maledon",
+   "club": "MAD",
+   "dorsal": "12",
+   "position": "Guard"
+  },
+  "P008384": {
+   "name": "PROCIDA, GABRIELE",
+   "short": "G. Procida",
+   "club": "MAD",
+   "dorsal": "9",
+   "position": "Forward"
+  },
+  "P014006": {
+   "name": "OKEKE, CHUMA",
+   "short": "C. Okeke",
+   "club": "MAD",
+   "dorsal": "8",
+   "position": "Center"
+  },
+  "P005928": {
+   "name": "CAMPAZZO, FACUNDO",
+   "short": "F. Campazzo",
+   "club": "MAD",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P003733": {
+   "name": "ABALDE, ALBERTO",
+   "short": "A. Abalde",
+   "club": "MAD",
+   "dorsal": "6",
+   "position": "Forward"
+  },
+  "P000796": {
+   "name": "MIROTIC, NIKOLA",
+   "short": "N. Mirotic",
+   "club": "PAM",
+   "dorsal": "33",
+   "position": "Forward"
+  },
+  "P011214": {
+   "name": "RIVERO, JASIEL",
+   "short": "J. Rivero",
+   "club": "PAM",
+   "dorsal": "41",
+   "position": "Forward"
+  },
+  "P010754": {
+   "name": "MARI, LUCAS",
+   "short": "L. Mari",
+   "club": "PAM",
+   "dorsal": "23",
+   "position": "Guard"
+  },
+  "P011706": {
+   "name": "SAINT-SUPERY, MARIO",
+   "short": "M. Saint-Supery",
+   "club": "PAM",
+   "dorsal": "5",
+   "position": "Guard"
+  },
+  "P014741": {
+   "name": "CARDENAS, ALVARO",
+   "short": "A. Cardenas",
+   "club": "PAM",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P014740": {
+   "name": "CORBALAN, GONZALO",
+   "short": "G. Corbalan",
+   "club": "PAM",
+   "dorsal": "20",
+   "position": "Forward"
+  },
+  "P014739": {
+   "name": "GUEYE, MOUHAMADOU",
+   "short": "M. Gueye",
+   "club": "PAM",
+   "dorsal": "16",
+   "position": "Forward"
+  },
+  "P013384": {
+   "name": "BROOKS, ARMONI",
+   "short": "A. Brooks",
+   "club": "PAM",
+   "dorsal": "12",
+   "position": "Guard"
+  },
+  "P014115": {
+   "name": "MOORE, OMARI",
+   "short": "O. Moore",
+   "club": "PAM",
+   "dorsal": "10",
+   "position": "Guard"
+  },
+  "P010581": {
+   "name": "OSETKOWSKI, DYLAN",
+   "short": "D. Osetkowski",
+   "club": "PAM",
+   "dorsal": "8",
+   "position": "Forward"
+  },
+  "P012738": {
+   "name": "REUVERS, NATHAN",
+   "short": "N. Reuvers",
+   "club": "PAM",
+   "dorsal": "3",
+   "position": "Forward"
+  },
+  "P012608": {
+   "name": "SHORTS, TJ",
+   "short": "T. Shorts",
+   "club": "PAM",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P005596": {
+   "name": "SIMA, YANKUBA",
+   "short": "Y. Sima",
+   "club": "PAM",
+   "dorsal": "77",
+   "position": "Center"
+  },
+  "P010545": {
+   "name": "SAKO, NEAL",
+   "short": "N. Sako",
+   "club": "PAM",
+   "dorsal": "13",
+   "position": "Center"
+  },
+  "P006643": {
+   "name": "PUERTO, JOSEP",
+   "short": "J. Puerto",
+   "club": "PAM",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P011217": {
+   "name": "TAYLOR, KAMERON",
+   "short": "K. Taylor",
+   "club": "PAM",
+   "dorsal": "1",
+   "position": "Forward"
+  },
+  "P013028": {
+   "name": "BAIOCCHI, MATTEO",
+   "short": "M. Baiocchi",
+   "club": "VIR",
+   "dorsal": "13",
+   "position": "Guard"
+  },
+  "P009400": {
+   "name": "CASARIN, DAVIDE",
+   "short": "D. Casarin",
+   "club": "VIR",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P006707": {
+   "name": "BALDASSO, TOMMASO",
+   "short": "T. Baldasso",
+   "club": "VIR",
+   "dorsal": "11",
+   "position": "Guard"
+  },
+  "P015029": {
+   "name": "FRAZIER, TRENT",
+   "short": "T. Frazier",
+   "club": "VIR",
+   "dorsal": "1",
+   "position": "Guard"
+  },
+  "P013374": {
+   "name": "DIOUF, MOUHAMET",
+   "short": "M. Diouf",
+   "club": "VIR",
+   "dorsal": "35",
+   "position": "Center"
+  },
+  "P001844": {
+   "name": "HACKETT, DANIEL",
+   "short": "D. Hackett",
+   "club": "VIR",
+   "dorsal": "23",
+   "position": "Guard"
+  },
+  "P014802": {
+   "name": "BELLO, RASHEED",
+   "short": "R. Bello",
+   "club": "VIR",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P014738": {
+   "name": "KLINTMAN, BO",
+   "short": "B. Klintman",
+   "club": "VIR",
+   "dorsal": "34",
+   "position": "Forward"
+  },
+  "P014416": {
+   "name": "EDWARDS, KESSLER",
+   "short": "K. Edwards",
+   "club": "VIR",
+   "dorsal": "9",
+   "position": "Forward"
+  },
+  "P014737": {
+   "name": "MOORE, WENDELL",
+   "short": "W. Moore",
+   "club": "VIR",
+   "dorsal": "8",
+   "position": "Guard"
+  },
+  "P011837": {
+   "name": "KOKILA, KEVIN",
+   "short": "K. Kokila",
+   "club": "VIR",
+   "dorsal": "3",
+   "position": "Center"
+  },
+  "P012707": {
+   "name": "CARR, MARCUS",
+   "short": "M. Carr",
+   "club": "VIR",
+   "dorsal": "2",
+   "position": "Guard"
+  },
+  "P014108": {
+   "name": "DIARRA, ALIOU",
+   "short": "A. Diarra",
+   "club": "VIR",
+   "dorsal": "31",
+   "position": "Center"
+  },
+  "P014219": {
+   "name": "FERRARI, FRANCESCO",
+   "short": "F. Ferrari",
+   "club": "VIR",
+   "dorsal": "24",
+   "position": "Forward"
+  },
+  "P014005": {
+   "name": "ALSTON JR. , DERRICK",
+   "short": "D. Alston Jr.",
+   "club": "VIR",
+   "dorsal": "21",
+   "position": "Forward"
+  },
+  "P000898": {
+   "name": "VALANCIUNAS, JONAS",
+   "short": "J. Valanciunas",
+   "club": "ZAL",
+   "dorsal": "17",
+   "position": "Center"
+  },
+  "P008186": {
+   "name": "BLAZEVIC, MAREK",
+   "short": "M. Blazevic",
+   "club": "ZAL",
+   "dorsal": "22",
+   "position": "Center"
+  },
+  "P007032": {
+   "name": "LO, MAODO",
+   "short": "M. Lo",
+   "club": "ZAL",
+   "dorsal": "12",
+   "position": "Guard"
+  },
+  "P002328": {
+   "name": "GRIGONIS, MARIUS",
+   "short": "M. Grigonis",
+   "club": "ZAL",
+   "dorsal": "40",
+   "position": "Guard"
+  },
+  "P013389": {
+   "name": "LEE, SABEN",
+   "short": "S. Lee",
+   "club": "ZAL",
+   "dorsal": "7",
+   "position": "Guard"
+  },
+  "P011987": {
+   "name": "EDWARDS, CARSEN",
+   "short": "C. Edwards",
+   "club": "ZAL",
+   "dorsal": "3",
+   "position": "Guard"
+  },
+  "P013845": {
+   "name": "AKOBUNDU-EHIOGU, KAODIRICHI",
+   "short": "K. Akobundu-Ehiogu",
+   "club": "ZAL",
+   "dorsal": "2",
+   "position": "Center"
+  },
+  "P012720": {
+   "name": "BROWN, STERLING",
+   "short": "S. Brown",
+   "club": "ZAL",
+   "dorsal": "0",
+   "position": "Guard"
+  },
+  "P002329": {
+   "name": "ULANOVAS, EDGARAS",
+   "short": "E. Ulanovas",
+   "club": "ZAL",
+   "dorsal": "92",
+   "position": "Forward"
+  },
+  "P007029": {
+   "name": "SIRVYDIS, DEIVIDAS",
+   "short": "D. Sirvydis",
+   "club": "ZAL",
+   "dorsal": "91",
+   "position": "Guard"
+  },
+  "P002676": {
+   "name": "BUTKEVICIUS, ARNAS",
+   "short": "A. Butkevicius",
+   "club": "ZAL",
+   "dorsal": "51",
+   "position": "Forward"
+  },
+  "P011927": {
+   "name": "SLEVA, DUSTIN",
+   "short": "D. Sleva",
+   "club": "ZAL",
+   "dorsal": "14",
+   "position": "Forward"
+  },
+  "P008192": {
+   "name": "TUBELIS, AZUOLAS",
+   "short": "A. Tubelis",
+   "club": "ZAL",
+   "dorsal": "10",
+   "position": "Forward"
+  },
+  "P007513": {
+   "name": "GIEDRAITIS, DOVYDAS",
+   "short": "D. Giedraitis",
+   "club": "ZAL",
+   "dorsal": "9",
+   "position": "Guard"
+  },
+  "P007982": {
+   "name": "WILLIAMS-GOSS, NIGEL",
+   "short": "N. Williams-Goss",
+   "club": "ZAL",
+   "dorsal": "1",
+   "position": "Guard"
+  }
+ }
+}
